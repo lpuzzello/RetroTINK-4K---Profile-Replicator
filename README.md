@@ -25,7 +25,7 @@ How to use:
 4) Edit the text files by adding  your profile mapping configuration following the steps for each file:
    
    DV1_PROFILES.txt
-      - First line will have the default profile (mandatory) with "\\" separator
+      - First line will have the default profile (mandatory) with "//" separator
       - Subsequent lines could have a secondary profile and core setname list (optional)
       - Blank lines are ignored, so you can use to be more visually friendly.
       Example with 3 profiles (1 default and 3 optional profiles)
@@ -36,7 +36,7 @@ How to use:
       - If cores are not pre-configured in this file, those will be retrieved automatically from MiSTer (including alternatives) and will receive the default profile.
 
    SVS_PROFILES.txt
-      - Add at least one profile with "\\" separator and include the profile name corresponding to each input (e.g: S0_N64,S1_PS2)
+      - Add at least one profile with "//" separator and include the profile name corresponding to each input (e.g: S0_N64,S1_PS2)
       - You can use the same profile for multiples inputs
         
       ![image](https://github.com/user-attachments/assets/ba4a6aab-dfc4-4e18-8bbb-45835c668d42)
