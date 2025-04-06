@@ -1,0 +1,12 @@
+//profile\HDMI\HDMI.rt4
+S0_
+
+//profile\_LOCAL\JVC D-Series-D200 - 4K HDR.rt4
+S1_PS2
+S5_MD
+S6_N64
+
+//profile\_LOCAL\Sony PVM 20L5 - 4K HDR.rt4
+S2_WII
+S3_DC
+S4_XO
