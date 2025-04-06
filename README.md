@@ -20,7 +20,7 @@ Restrictions:
 How to use:
 
 1) Copy the scripts in a folder in your PC.
-2) Edit the RT4K_MISTER_DV1_REPLICATE.bat and RT4K_SVS_REPLICATE_V2.bat and set your MiSTer storage and RT4K SD Card drive letter.
+2) Edit the RT4K_MISTER_DV1_REPLICATE.bat and RT4K_SVS_REPLICATE.bat and set your MiSTer storage and RT4K SD Card drive letter.
 3) Create a text file named DV1_PROFILES.txt for RT4K_MISTER_DV1_REPLICATE.bat and SVS_PROFILES_txt for RT4K_SVS_REPLICATE.bat in the same folder of the scripts.
 4) Edit the text files by adding  your profile mapping configuration following the steps for each file:
    
