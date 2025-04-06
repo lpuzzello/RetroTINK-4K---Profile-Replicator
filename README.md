@@ -20,18 +20,19 @@ Restrictions:
 How to use:
 
 1) Copy the scripts in a folder in your PC.
-2) Create a text file named DV1_PROFILES.txt for RT4K_MISTER_DV1_REPLICATE and SVS_PROFILES_txt for RT4K_SVS_REPLICATE.bat in the same folder of the scripts.
-3) Edit the text files by adding  your profile mapping configuration following the steps for each file:
+2) Edit the RT4K_MISTER_DV1_REPLICATE.bat and RT4K_SVS_REPLICATE_V2.bat and set your MiSTer storage and RT4K SD Card drive letter.
+3) Create a text file named DV1_PROFILES.txt for RT4K_MISTER_DV1_REPLICATE.bat and SVS_PROFILES_txt for RT4K_SVS_REPLICATE.bat in the same folder of the scripts.
+4) Edit the text files by adding  your profile mapping configuration following the steps for each file:
    
    DV1_PROFILES.txt
       - First line will have the default profile (mandatory) with "\\" separator
-      - Subsequent lines will have secondary profile and core setname list (optional)
+      - Subsequent lines could have a secondary profile and core setname list (optional)
       - Blank lines are ignored, so you can use to be more visually friendly.
       Example with 3 profiles (1 default and 2 optional profiles)
 
       ![image](https://github.com/user-attachments/assets/47fc9c6c-afa7-4dca-a385-eab4d0a03137)
    
-      - Cores that are not pre-configured in this file will be retrieved automatically from MiSTer (including alternatives) and will receive the default profile.
+      - If cores are not pre-configured in this file, those will be retrieved automatically from MiSTer (including alternatives) and will receive the default profile.
 
    SVS_PROFILES.txt
       - Add at least one profile with "\\" separator and include the profile name corresponding to each input (e.g: S0_N64,S1_PS2)
@@ -39,7 +40,7 @@ How to use:
         
       ![image](https://github.com/user-attachments/assets/2b0d2547-7a07-4ae2-92d7-165c2be839c5)
 
-4) Run the desired scripts:
+5) Run the desired scripts:
    
    RT4K_MISTER_DV1_REPLICATE.bat
       - This script will first look for the default profile in DV1_PROFILES.txt and the core exception list.
@@ -50,3 +51,5 @@ How to use:
    RT4K_SVS_REPLICATE.bat
       - This script will first look for the default profile in SVS_PROFILES.txt.
       - Unlike MiSTer script, this will rely exclusively in the SVS_PROFILES.txt.
+
+6) This is other part of fun of owning these excelent devices like tweaking settings, and playing games. If you have any suggestion or ideas feel free add.
