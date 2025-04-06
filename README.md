@@ -28,9 +28,10 @@ How to use:
       - First line will have the default profile (mandatory) with "\\" separator
       - Subsequent lines could have a secondary profile and core setname list (optional)
       - Blank lines are ignored, so you can use to be more visually friendly.
-      Example with 3 profiles (1 default and 2 optional profiles)
+      Example with 3 profiles (1 default and 3 optional profiles)
 
-      ![image](https://github.com/user-attachments/assets/47fc9c6c-afa7-4dca-a385-eab4d0a03137)
+      ![image](https://github.com/user-attachments/assets/c6b4197c-3dbc-414c-89b2-5bfbc70e4eb0)
+
    
       - If cores are not pre-configured in this file, those will be retrieved automatically from MiSTer (including alternatives) and will receive the default profile.
 
@@ -38,7 +39,8 @@ How to use:
       - Add at least one profile with "\\" separator and include the profile name corresponding to each input (e.g: S0_N64,S1_PS2)
       - You can use the same profile for multiples inputs
         
-      ![image](https://github.com/user-attachments/assets/2b0d2547-7a07-4ae2-92d7-165c2be839c5)
+      ![image](https://github.com/user-attachments/assets/ba4a6aab-dfc4-4e18-8bbb-45835c668d42)
+
 
 5) Run the desired scripts:
    
@@ -52,4 +54,5 @@ How to use:
       - This script will first look for the default profile in SVS_PROFILES.txt.
       - Unlike MiSTer script, this will rely exclusively in the SVS_PROFILES.txt.
 
-6) This is other part of fun of owning these excelent devices like tweaking settings, and playing games. If you have any suggestion or ideas feel free add.
+6) This is other part of fun of owning these excelent devices like tweaking settings, and playing games.
+   If you have any suggestion or find issues with these scripts feel free raise a Issue. Feel free also to copy or reuse, however please give the proper author credits, this kind of attitude only motivates the community to create new stuff.
