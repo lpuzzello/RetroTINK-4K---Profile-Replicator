@@ -16,7 +16,8 @@ IF [%MISTER%]==[] (
   EXIT /B  
 )
 
-SET AUX_ARCADE="_AUX\DV1_ARCADE.txt"
+SET AUX_DIR=_AUX
+SET AUX_ARCADE=%AUX_DIR%\DV1_ARCADE.txt
 SET DV1_PROFILES="DV1_PROFILES.txt"
 
 
@@ -47,10 +48,13 @@ FOR /F "tokens=*" %%f IN ('type %DV1_PROFILES%') DO (
 
 :: Read MiSTer MRA files and create Arcade list in a local file to speed-up process 
 IF NOT EXIST %AUX_ARCADE% (
+ MD %AUX_DIR%
+ ECHO Creating auxiliar file %AUX_ARCADE% for Arcade cores, this will take a while
  FOR /F "tokens=3 delims=><" %%f IN ('findstr /S setname %MISTER%_Arcade\*.mra') do (
-   ECHO Creating an auxiliar file for Arcade cores, this will take a while
    ECHO %%f >> %AUX_ARCADE%
  )
+  ) ELSE (
+ ECHO File %AUX_ARCADE% exists, skipping.
 )
 
 :: Read MiSTer Console core folder and create the RT4 profile based on RBF filename 
