@@ -54,5 +54,14 @@ How to use:
       - This script will first look for the default profile in SVS_PROFILES.txt.
       - Unlike MiSTer script, this will rely exclusively in the SVS_PROFILES.txt.
 
-6) This is other part of fun of owning these excelent devices like tweaking settings, and playing games.
+6) Misc
+   UTIL_MISTER_DV1_FINDER.bat
+      - This is a helper script that allow to generate a DV1_PROFILES.txt list based on MRA attributes from MiSTer Arcade cores (orientation,core name).
+      - Filters are configurable in the User section of the script.
+
+
+8) This is other part of fun of owning these excelent devices like tweaking settings, and playing games.
    If you have any suggestion or find issues with these scripts feel free raise a Issue. Feel free also to copy or reuse, however please give the proper author credits, this kind of attitude only motivates the community to create new stuff.
+
+
+
